@@ -11,6 +11,8 @@
 		6ABEA38D29D70AA900C93EC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEA38C29D70AA900C93EC9 /* ContentView.swift */; };
 		6ABEA38F29D70AA900C93EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABEA38E29D70AA900C93EC9 /* Assets.xcassets */; };
 		6ABEA39229D70AA900C93EC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABEA39129D70AA900C93EC9 /* Preview Assets.xcassets */; };
+		6ABEA3C129D7104C00C93EC9 /* Video in Resources */ = {isa = PBXBuildFile; fileRef = 6ABEA3C029D7104C00C93EC9 /* Video */; };
+		6ABEA3C329D7105D00C93EC9 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 6ABEA3C229D7105D00C93EC9 /* Data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		6ABEA38C29D70AA900C93EC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6ABEA38E29D70AA900C93EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ABEA39129D70AA900C93EC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6ABEA3C029D7104C00C93EC9 /* Video */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Video; sourceTree = "<group>"; };
+		6ABEA3C229D7105D00C93EC9 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
+		6ABEA3C429D7138E00C93EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,9 @@
 		6ABEA38929D70AA900C93EC9 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				6ABEA3C429D7138E00C93EC9 /* Info.plist */,
+				6ABEA3C229D7105D00C93EC9 /* Data */,
+				6ABEA3C029D7104C00C93EC9 /* Video */,
 				6ABEA38A29D70AA900C93EC9 /* AfricaApp.swift */,
 				6ABEA38C29D70AA900C93EC9 /* ContentView.swift */,
 				6ABEA38E29D70AA900C93EC9 /* Assets.xcassets */,
@@ -125,7 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ABEA3C129D7104C00C93EC9 /* Video in Resources */,
 				6ABEA39229D70AA900C93EC9 /* Preview Assets.xcassets in Resources */,
+				6ABEA3C329D7105D00C93EC9 /* Data in Resources */,
 				6ABEA38F29D70AA900C93EC9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,11 +279,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Africa/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Africa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,11 +308,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Africa/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Africa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
