@@ -12,7 +12,6 @@
 		6ABEA38F29D70AA900C93EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABEA38E29D70AA900C93EC9 /* Assets.xcassets */; };
 		6ABEA39229D70AA900C93EC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABEA39129D70AA900C93EC9 /* Preview Assets.xcassets */; };
 		6ABEA3C129D7104C00C93EC9 /* Video in Resources */ = {isa = PBXBuildFile; fileRef = 6ABEA3C029D7104C00C93EC9 /* Video */; };
-		6ABEA3C329D7105D00C93EC9 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 6ABEA3C229D7105D00C93EC9 /* Data */; };
 		6ABEA3C729D7174B00C93EC9 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEA3C629D7174B00C93EC9 /* VideoListView.swift */; };
 		6ABEA3C929D7177C00C93EC9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEA3C829D7177C00C93EC9 /* MapView.swift */; };
 		6ABEA3CB29D7179700C93EC9 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEA3CA29D7179700C93EC9 /* GalleryView.swift */; };
@@ -20,6 +19,10 @@
 		6ACEEFC729D77A6E00F61171 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACEEFC629D77A6E00F61171 /* CoverImageView.swift */; };
 		6ACEEFCA29D77D3600F61171 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACEEFC929D77D3600F61171 /* CoverImageModel.swift */; };
 		6ACEEFCD29D77F3100F61171 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACEEFCC29D77F3100F61171 /* CodableBundleExtension.swift */; };
+		6ACEEFD029D783DF00F61171 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 6ACEEFCF29D783DF00F61171 /* animals.json */; };
+		6ACEEFD429D783EF00F61171 /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 6ACEEFD129D783EF00F61171 /* covers.json */; };
+		6ACEEFD529D783EF00F61171 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 6ACEEFD229D783EF00F61171 /* locations.json */; };
+		6ACEEFD629D783EF00F61171 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 6ACEEFD329D783EF00F61171 /* videos.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +32,6 @@
 		6ABEA38E29D70AA900C93EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ABEA39129D70AA900C93EC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6ABEA3C029D7104C00C93EC9 /* Video */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Video; sourceTree = "<group>"; };
-		6ABEA3C229D7105D00C93EC9 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 		6ABEA3C429D7138E00C93EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6ABEA3C629D7174B00C93EC9 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
 		6ABEA3C829D7177C00C93EC9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,10 @@
 		6ACEEFC629D77A6E00F61171 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		6ACEEFC929D77D3600F61171 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		6ACEEFCC29D77F3100F61171 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		6ACEEFCF29D783DF00F61171 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		6ACEEFD129D783EF00F61171 /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		6ACEEFD229D783EF00F61171 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		6ACEEFD329D783EF00F61171 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,11 +76,11 @@
 		6ABEA38929D70AA900C93EC9 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				6ACEEFCE29D783BD00F61171 /* Data */,
 				6ACEEFCB29D77F0500F61171 /* Extension */,
 				6ACEEFC829D77D1400F61171 /* Model */,
 				6ACEEFC529D77A5700F61171 /* View */,
 				6ABEA3C429D7138E00C93EC9 /* Info.plist */,
-				6ABEA3C229D7105D00C93EC9 /* Data */,
 				6ABEA3C029D7104C00C93EC9 /* Video */,
 				6ABEA3C529D716EC00C93EC9 /* App */,
 				6ABEA38E29D70AA900C93EC9 /* Assets.xcassets */,
@@ -126,6 +132,17 @@
 				6ACEEFCC29D77F3100F61171 /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		6ACEEFCE29D783BD00F61171 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6ACEEFD129D783EF00F61171 /* covers.json */,
+				6ACEEFD229D783EF00F61171 /* locations.json */,
+				6ACEEFD329D783EF00F61171 /* videos.json */,
+				6ACEEFCF29D783DF00F61171 /* animals.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,9 +203,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ACEEFD429D783EF00F61171 /* covers.json in Resources */,
 				6ABEA3C129D7104C00C93EC9 /* Video in Resources */,
+				6ACEEFD029D783DF00F61171 /* animals.json in Resources */,
+				6ACEEFD629D783EF00F61171 /* videos.json in Resources */,
 				6ABEA39229D70AA900C93EC9 /* Preview Assets.xcassets in Resources */,
-				6ABEA3C329D7105D00C93EC9 /* Data in Resources */,
+				6ACEEFD529D783EF00F61171 /* locations.json in Resources */,
 				6ABEA38F29D70AA900C93EC9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
