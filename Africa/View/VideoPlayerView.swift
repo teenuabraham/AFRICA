@@ -13,7 +13,7 @@ struct VideoPlayerView: View {
     
     // MARK: - BODY
     var body: some View {
-        VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource: "cheetah", withExtension: "mp4")!))
+        VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource: "lion", withExtension: "mp4")!))
     }
 }
 
