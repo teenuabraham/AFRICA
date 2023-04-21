@@ -43,6 +43,7 @@
 		6ACEEFD629D783EF00F61171 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 6ACEEFD329D783EF00F61171 /* videos.json */; };
 		6AD1F31929E9EA36006A3607 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD1F31829E9EA36006A3607 /* LocationModel.swift */; };
 		6AD1F31B29E9F308006A3607 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD1F31A29E9F308006A3607 /* MapAnnotationView.swift */; };
+		6AEA9A1D29F318130058D0FF /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA9A1C29F318130058D0FF /* MotionAnimationView.swift */; };
 		6AEF8B4C29E733F6005E1676 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEF8B4B29E733F6005E1676 /* InsetFactView.swift */; };
 		6AEF8B4E29E73C22005E1676 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEF8B4D29E73C22005E1676 /* InsetMapView.swift */; };
 		6AEF8B5029E743E7005E1676 /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEF8B4F29E743E7005E1676 /* ExternalWeblinkView.swift */; };
@@ -87,6 +88,7 @@
 		6ACEEFD329D783EF00F61171 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 		6AD1F31829E9EA36006A3607 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		6AD1F31A29E9F308006A3607 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		6AEA9A1C29F318130058D0FF /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		6AEF8B4B29E733F6005E1676 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		6AEF8B4D29E73C22005E1676 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		6AEF8B4F29E743E7005E1676 /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				6A106E9329E8952E00A521CC /* VideoListItemView.swift */,
 				6A106E9529E89CCC00A521CC /* VideoPlayerView.swift */,
 				6AD1F31A29E9F308006A3607 /* MapAnnotationView.swift */,
+				6AEA9A1C29F318130058D0FF /* MotionAnimationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				6ACAB29929DCBB84004F3911 /* InsetGalleryView.swift in Sources */,
 				6A106E9429E8952E00A521CC /* VideoListItemView.swift in Sources */,
 				6ACEEFCD29D77F3100F61171 /* CodableBundleExtension.swift in Sources */,
+				6AEA9A1D29F318130058D0FF /* MotionAnimationView.swift in Sources */,
 				6ACAB29729DCB9F7004F3911 /* HeadingView.swift in Sources */,
 				6A106E9629E89CCC00A521CC /* VideoPlayerView.swift in Sources */,
 			);
