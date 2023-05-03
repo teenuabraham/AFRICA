@@ -62,7 +62,7 @@ struct ContentView: View {
                             }//: Loop
                         } //: Grid
                         .padding(10)
-                        .animation(.easeIn)
+                        .animation(.easeIn, value: 0)
                     }//: Scroll
                 } //: Condition
             } //: Group
